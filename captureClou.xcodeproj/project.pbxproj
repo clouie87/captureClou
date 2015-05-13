@@ -14,6 +14,65 @@
 		5C58E9961AFC02E60000A106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9951AFC02E60000A106 /* Images.xcassets */; };
 		5C58E9991AFC02E60000A106 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9971AFC02E60000A106 /* LaunchScreen.xib */; };
 		5C58E9A51AFC02E60000A106 /* captureClouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9A41AFC02E60000A106 /* captureClouTests.swift */; };
+		5C58E9CF1AFC09870000A106 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B11AFC09870000A106 /* AsyncButton.swift */; };
+		5C58E9D01AFC09870000A106 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B21AFC09870000A106 /* AsyncImageView.swift */; };
+		5C58E9D11AFC09870000A106 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B31AFC09870000A106 /* AutoTextView.swift */; };
+		5C58E9D21AFC09870000A106 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B41AFC09870000A106 /* BlurView.swift */; };
+		5C58E9D31AFC09870000A106 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B51AFC09870000A106 /* DesignableButton.swift */; };
+		5C58E9D41AFC09870000A106 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B61AFC09870000A106 /* DesignableImageView.swift */; };
+		5C58E9D51AFC09870000A106 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B71AFC09870000A106 /* DesignableLabel.swift */; };
+		5C58E9D61AFC09870000A106 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B81AFC09870000A106 /* DesignableTabBarController.swift */; };
+		5C58E9D71AFC09870000A106 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9B91AFC09870000A106 /* DesignableTextField.swift */; };
+		5C58E9D81AFC09870000A106 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9BA1AFC09870000A106 /* DesignableTextView.swift */; };
+		5C58E9D91AFC09870000A106 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9BB1AFC09870000A106 /* DesignableView.swift */; };
+		5C58E9DA1AFC09870000A106 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9BC1AFC09870000A106 /* ImageLoader.swift */; };
+		5C58E9DB1AFC09870000A106 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9BD1AFC09870000A106 /* Info.plist */; };
+		5C58E9DC1AFC09870000A106 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9BE1AFC09870000A106 /* KeyboardLayoutConstraint.swift */; };
+		5C58E9DD1AFC09870000A106 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9BF1AFC09870000A106 /* LoadingView.swift */; };
+		5C58E9DE1AFC09870000A106 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9C01AFC09870000A106 /* LoadingView.xib */; };
+		5C58E9DF1AFC09870000A106 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C11AFC09870000A106 /* Misc.swift */; };
+		5C58E9E01AFC09870000A106 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C21AFC09870000A106 /* SoundPlayer.swift */; };
+		5C58E9E11AFC09870000A106 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C41AFC09870000A106 /* Spring.swift */; };
+		5C58E9E21AFC09870000A106 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C51AFC09870000A106 /* SpringAnimation.swift */; };
+		5C58E9E31AFC09870000A106 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C61AFC09870000A106 /* SpringButton.swift */; };
+		5C58E9E41AFC09870000A106 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C71AFC09870000A106 /* SpringImageView.swift */; };
+		5C58E9E51AFC09870000A106 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C81AFC09870000A106 /* SpringLabel.swift */; };
+		5C58E9E61AFC09870000A106 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9C91AFC09870000A106 /* SpringTextField.swift */; };
+		5C58E9E71AFC09870000A106 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9CA1AFC09870000A106 /* SpringTextView.swift */; };
+		5C58E9E81AFC09870000A106 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9CB1AFC09870000A106 /* SpringView.swift */; };
+		5C58E9E91AFC09870000A106 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9CC1AFC09870000A106 /* TransitionManager.swift */; };
+		5C58E9EA1AFC09870000A106 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9CD1AFC09870000A106 /* TransitionZoom.swift */; };
+		5C58E9EB1AFC09870000A106 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E9CE1AFC09870000A106 /* UnwindSegue.swift */; };
+		5C58EA061AFC0BFF0000A106 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9ED1AFC0BFF0000A106 /* LICENSE.txt */; };
+		5C58EA071AFC0BFF0000A106 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9EE1AFC0BFF0000A106 /* OpenSans-Bold.ttf */; };
+		5C58EA081AFC0BFF0000A106 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9EF1AFC0BFF0000A106 /* OpenSans-BoldItalic.ttf */; };
+		5C58EA091AFC0BFF0000A106 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F01AFC0BFF0000A106 /* OpenSans-ExtraBold.ttf */; };
+		5C58EA0A1AFC0BFF0000A106 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F11AFC0BFF0000A106 /* OpenSans-ExtraBoldItalic.ttf */; };
+		5C58EA0B1AFC0BFF0000A106 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F21AFC0BFF0000A106 /* OpenSans-Italic.ttf */; };
+		5C58EA0C1AFC0BFF0000A106 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F31AFC0BFF0000A106 /* OpenSans-Light.ttf */; };
+		5C58EA0D1AFC0BFF0000A106 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F41AFC0BFF0000A106 /* OpenSans-LightItalic.ttf */; };
+		5C58EA0E1AFC0BFF0000A106 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F51AFC0BFF0000A106 /* OpenSans-Regular.ttf */; };
+		5C58EA0F1AFC0BFF0000A106 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F61AFC0BFF0000A106 /* OpenSans-Semibold.ttf */; };
+		5C58EA101AFC0BFF0000A106 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F71AFC0BFF0000A106 /* OpenSans-SemiboldItalic.ttf */; };
+		5C58EA111AFC0BFF0000A106 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9F91AFC0BFF0000A106 /* LICENSE.txt */; };
+		5C58EA121AFC0BFF0000A106 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FA1AFC0BFF0000A106 /* Roboto-Black.ttf */; };
+		5C58EA131AFC0BFF0000A106 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FB1AFC0BFF0000A106 /* Roboto-BlackItalic.ttf */; };
+		5C58EA141AFC0BFF0000A106 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FC1AFC0BFF0000A106 /* Roboto-Bold.ttf */; };
+		5C58EA151AFC0BFF0000A106 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FD1AFC0BFF0000A106 /* Roboto-BoldItalic.ttf */; };
+		5C58EA161AFC0BFF0000A106 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FE1AFC0BFF0000A106 /* Roboto-Italic.ttf */; };
+		5C58EA171AFC0BFF0000A106 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E9FF1AFC0BFF0000A106 /* Roboto-Light.ttf */; };
+		5C58EA181AFC0BFF0000A106 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA001AFC0BFF0000A106 /* Roboto-LightItalic.ttf */; };
+		5C58EA191AFC0BFF0000A106 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA011AFC0BFF0000A106 /* Roboto-Medium.ttf */; };
+		5C58EA1A1AFC0BFF0000A106 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA021AFC0BFF0000A106 /* Roboto-MediumItalic.ttf */; };
+		5C58EA1B1AFC0BFF0000A106 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA031AFC0BFF0000A106 /* Roboto-Regular.ttf */; };
+		5C58EA1C1AFC0BFF0000A106 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA041AFC0BFF0000A106 /* Roboto-Thin.ttf */; };
+		5C58EA1D1AFC0BFF0000A106 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58EA051AFC0BFF0000A106 /* Roboto-ThinItalic.ttf */; };
+		5C58EA211AFFA2A90000A106 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58EA201AFFA2A80000A106 /* HomeTableViewController.swift */; };
+		5C58EA231AFFD6C30000A106 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58EA221AFFD6C30000A106 /* Data.swift */; };
+		5C58EA251AFFD9050000A106 /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58EA241AFFD9050000A106 /* ChallengeTableViewCell.swift */; };
+		5C5B31EE1B010FC800540C41 /* ChallengeIdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B31ED1B010FC800540C41 /* ChallengeIdTableViewController.swift */; };
+		5CBD06C91B02BADF00246456 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD06C81B02BADF00246456 /* SwiftyJSON.swift */; };
+		5CBD06CB1B02EF4200246456 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD06CA1B02EF4100246456 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +97,66 @@
 		5C58E99E1AFC02E60000A106 /* captureClouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = captureClouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58E9A31AFC02E60000A106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C58E9A41AFC02E60000A106 /* captureClouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captureClouTests.swift; sourceTree = "<group>"; };
+		5C58E9B11AFC09870000A106 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		5C58E9B21AFC09870000A106 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		5C58E9B31AFC09870000A106 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		5C58E9B41AFC09870000A106 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		5C58E9B51AFC09870000A106 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		5C58E9B61AFC09870000A106 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		5C58E9B71AFC09870000A106 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		5C58E9B81AFC09870000A106 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		5C58E9B91AFC09870000A106 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		5C58E9BA1AFC09870000A106 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		5C58E9BB1AFC09870000A106 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		5C58E9BC1AFC09870000A106 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5C58E9BD1AFC09870000A106 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C58E9BE1AFC09870000A106 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		5C58E9BF1AFC09870000A106 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5C58E9C01AFC09870000A106 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		5C58E9C11AFC09870000A106 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		5C58E9C21AFC09870000A106 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		5C58E9C31AFC09870000A106 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		5C58E9C41AFC09870000A106 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		5C58E9C51AFC09870000A106 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		5C58E9C61AFC09870000A106 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		5C58E9C71AFC09870000A106 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		5C58E9C81AFC09870000A106 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		5C58E9C91AFC09870000A106 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		5C58E9CA1AFC09870000A106 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		5C58E9CB1AFC09870000A106 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		5C58E9CC1AFC09870000A106 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		5C58E9CD1AFC09870000A106 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		5C58E9CE1AFC09870000A106 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		5C58E9ED1AFC0BFF0000A106 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5C58E9EE1AFC0BFF0000A106 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		5C58E9EF1AFC0BFF0000A106 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9F01AFC0BFF0000A106 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5C58E9F11AFC0BFF0000A106 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9F21AFC0BFF0000A106 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		5C58E9F31AFC0BFF0000A106 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		5C58E9F41AFC0BFF0000A106 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9F51AFC0BFF0000A106 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		5C58E9F61AFC0BFF0000A106 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		5C58E9F71AFC0BFF0000A106 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9F91AFC0BFF0000A106 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5C58E9FA1AFC0BFF0000A106 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		5C58E9FB1AFC0BFF0000A106 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9FC1AFC0BFF0000A106 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5C58E9FD1AFC0BFF0000A106 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5C58E9FE1AFC0BFF0000A106 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		5C58E9FF1AFC0BFF0000A106 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		5C58EA001AFC0BFF0000A106 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		5C58EA011AFC0BFF0000A106 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5C58EA021AFC0BFF0000A106 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5C58EA031AFC0BFF0000A106 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5C58EA041AFC0BFF0000A106 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		5C58EA051AFC0BFF0000A106 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5C58EA201AFFA2A80000A106 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		5C58EA221AFFD6C30000A106 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5C58EA241AFFD9050000A106 /* ChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCell.swift; sourceTree = "<group>"; };
+		5C5B31ED1B010FC800540C41 /* ChallengeIdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeIdTableViewController.swift; sourceTree = "<group>"; };
+		5CBD06C81B02BADF00246456 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5CBD06CA1B02EF4100246456 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +198,17 @@
 		5C58E9881AFC02E60000A106 /* captureClou */ = {
 			isa = PBXGroup;
 			children = (
+				5CBD06C81B02BADF00246456 /* SwiftyJSON.swift */,
+				5C58E9EC1AFC0BFE0000A106 /* Open_Sans */,
+				5C58E9F81AFC0BFF0000A106 /* Roboto */,
+				5C58E9B01AFC09870000A106 /* Spring */,
 				5C58E98B1AFC02E60000A106 /* AppDelegate.swift */,
 				5C58E9901AFC02E60000A106 /* ViewController.swift */,
+				5C58EA201AFFA2A80000A106 /* HomeTableViewController.swift */,
+				5C5B31ED1B010FC800540C41 /* ChallengeIdTableViewController.swift */,
+				5CBD06CA1B02EF4100246456 /* ImageTableViewCell.swift */,
+				5C58EA241AFFD9050000A106 /* ChallengeTableViewCell.swift */,
+				5C58EA221AFFD6C30000A106 /* Data.swift */,
 				5C58E9921AFC02E60000A106 /* Main.storyboard */,
 				5C58E9951AFC02E60000A106 /* Images.xcassets */,
 				5C58E9971AFC02E60000A106 /* LaunchScreen.xib */,
@@ -113,6 +241,81 @@
 				5C58E9A31AFC02E60000A106 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C58E9B01AFC09870000A106 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				5C58E9B11AFC09870000A106 /* AsyncButton.swift */,
+				5C58E9B21AFC09870000A106 /* AsyncImageView.swift */,
+				5C58E9B31AFC09870000A106 /* AutoTextView.swift */,
+				5C58E9B41AFC09870000A106 /* BlurView.swift */,
+				5C58E9B51AFC09870000A106 /* DesignableButton.swift */,
+				5C58E9B61AFC09870000A106 /* DesignableImageView.swift */,
+				5C58E9B71AFC09870000A106 /* DesignableLabel.swift */,
+				5C58E9B81AFC09870000A106 /* DesignableTabBarController.swift */,
+				5C58E9B91AFC09870000A106 /* DesignableTextField.swift */,
+				5C58E9BA1AFC09870000A106 /* DesignableTextView.swift */,
+				5C58E9BB1AFC09870000A106 /* DesignableView.swift */,
+				5C58E9BC1AFC09870000A106 /* ImageLoader.swift */,
+				5C58E9BD1AFC09870000A106 /* Info.plist */,
+				5C58E9BE1AFC09870000A106 /* KeyboardLayoutConstraint.swift */,
+				5C58E9BF1AFC09870000A106 /* LoadingView.swift */,
+				5C58E9C01AFC09870000A106 /* LoadingView.xib */,
+				5C58E9C11AFC09870000A106 /* Misc.swift */,
+				5C58E9C21AFC09870000A106 /* SoundPlayer.swift */,
+				5C58E9C31AFC09870000A106 /* Spring.h */,
+				5C58E9C41AFC09870000A106 /* Spring.swift */,
+				5C58E9C51AFC09870000A106 /* SpringAnimation.swift */,
+				5C58E9C61AFC09870000A106 /* SpringButton.swift */,
+				5C58E9C71AFC09870000A106 /* SpringImageView.swift */,
+				5C58E9C81AFC09870000A106 /* SpringLabel.swift */,
+				5C58E9C91AFC09870000A106 /* SpringTextField.swift */,
+				5C58E9CA1AFC09870000A106 /* SpringTextView.swift */,
+				5C58E9CB1AFC09870000A106 /* SpringView.swift */,
+				5C58E9CC1AFC09870000A106 /* TransitionManager.swift */,
+				5C58E9CD1AFC09870000A106 /* TransitionZoom.swift */,
+				5C58E9CE1AFC09870000A106 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		5C58E9EC1AFC0BFE0000A106 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				5C58E9ED1AFC0BFF0000A106 /* LICENSE.txt */,
+				5C58E9EE1AFC0BFF0000A106 /* OpenSans-Bold.ttf */,
+				5C58E9EF1AFC0BFF0000A106 /* OpenSans-BoldItalic.ttf */,
+				5C58E9F01AFC0BFF0000A106 /* OpenSans-ExtraBold.ttf */,
+				5C58E9F11AFC0BFF0000A106 /* OpenSans-ExtraBoldItalic.ttf */,
+				5C58E9F21AFC0BFF0000A106 /* OpenSans-Italic.ttf */,
+				5C58E9F31AFC0BFF0000A106 /* OpenSans-Light.ttf */,
+				5C58E9F41AFC0BFF0000A106 /* OpenSans-LightItalic.ttf */,
+				5C58E9F51AFC0BFF0000A106 /* OpenSans-Regular.ttf */,
+				5C58E9F61AFC0BFF0000A106 /* OpenSans-Semibold.ttf */,
+				5C58E9F71AFC0BFF0000A106 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
+		5C58E9F81AFC0BFF0000A106 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				5C58E9F91AFC0BFF0000A106 /* LICENSE.txt */,
+				5C58E9FA1AFC0BFF0000A106 /* Roboto-Black.ttf */,
+				5C58E9FB1AFC0BFF0000A106 /* Roboto-BlackItalic.ttf */,
+				5C58E9FC1AFC0BFF0000A106 /* Roboto-Bold.ttf */,
+				5C58E9FD1AFC0BFF0000A106 /* Roboto-BoldItalic.ttf */,
+				5C58E9FE1AFC0BFF0000A106 /* Roboto-Italic.ttf */,
+				5C58E9FF1AFC0BFF0000A106 /* Roboto-Light.ttf */,
+				5C58EA001AFC0BFF0000A106 /* Roboto-LightItalic.ttf */,
+				5C58EA011AFC0BFF0000A106 /* Roboto-Medium.ttf */,
+				5C58EA021AFC0BFF0000A106 /* Roboto-MediumItalic.ttf */,
+				5C58EA031AFC0BFF0000A106 /* Roboto-Regular.ttf */,
+				5C58EA041AFC0BFF0000A106 /* Roboto-Thin.ttf */,
+				5C58EA051AFC0BFF0000A106 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +370,6 @@
 					};
 					5C58E99D1AFC02E60000A106 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 5C58E9851AFC02E60000A106;
 					};
 				};
 			};
@@ -195,9 +397,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C58EA1C1AFC0BFF0000A106 /* Roboto-Thin.ttf in Resources */,
+				5C58EA111AFC0BFF0000A106 /* LICENSE.txt in Resources */,
+				5C58EA101AFC0BFF0000A106 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				5C58EA1A1AFC0BFF0000A106 /* Roboto-MediumItalic.ttf in Resources */,
+				5C58EA181AFC0BFF0000A106 /* Roboto-LightItalic.ttf in Resources */,
+				5C58EA141AFC0BFF0000A106 /* Roboto-Bold.ttf in Resources */,
+				5C58EA1D1AFC0BFF0000A106 /* Roboto-ThinItalic.ttf in Resources */,
+				5C58EA171AFC0BFF0000A106 /* Roboto-Light.ttf in Resources */,
+				5C58EA1B1AFC0BFF0000A106 /* Roboto-Regular.ttf in Resources */,
+				5C58EA191AFC0BFF0000A106 /* Roboto-Medium.ttf in Resources */,
+				5C58EA061AFC0BFF0000A106 /* LICENSE.txt in Resources */,
+				5C58EA0B1AFC0BFF0000A106 /* OpenSans-Italic.ttf in Resources */,
+				5C58EA071AFC0BFF0000A106 /* OpenSans-Bold.ttf in Resources */,
+				5C58EA121AFC0BFF0000A106 /* Roboto-Black.ttf in Resources */,
+				5C58EA091AFC0BFF0000A106 /* OpenSans-ExtraBold.ttf in Resources */,
+				5C58E9DB1AFC09870000A106 /* Info.plist in Resources */,
+				5C58EA161AFC0BFF0000A106 /* Roboto-Italic.ttf in Resources */,
+				5C58EA131AFC0BFF0000A106 /* Roboto-BlackItalic.ttf in Resources */,
 				5C58E9941AFC02E60000A106 /* Main.storyboard in Resources */,
+				5C58EA0C1AFC0BFF0000A106 /* OpenSans-Light.ttf in Resources */,
+				5C58EA151AFC0BFF0000A106 /* Roboto-BoldItalic.ttf in Resources */,
 				5C58E9991AFC02E60000A106 /* LaunchScreen.xib in Resources */,
 				5C58E9961AFC02E60000A106 /* Images.xcassets in Resources */,
+				5C58EA0F1AFC0BFF0000A106 /* OpenSans-Semibold.ttf in Resources */,
+				5C58EA0A1AFC0BFF0000A106 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				5C58EA0E1AFC0BFF0000A106 /* OpenSans-Regular.ttf in Resources */,
+				5C58EA081AFC0BFF0000A106 /* OpenSans-BoldItalic.ttf in Resources */,
+				5C58EA0D1AFC0BFF0000A106 /* OpenSans-LightItalic.ttf in Resources */,
+				5C58E9DE1AFC09870000A106 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +443,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C58E9D51AFC09870000A106 /* DesignableLabel.swift in Sources */,
+				5C58E9E41AFC09870000A106 /* SpringImageView.swift in Sources */,
+				5C58E9D11AFC09870000A106 /* AutoTextView.swift in Sources */,
+				5C58E9DA1AFC09870000A106 /* ImageLoader.swift in Sources */,
+				5C58E9DF1AFC09870000A106 /* Misc.swift in Sources */,
+				5C58E9D21AFC09870000A106 /* BlurView.swift in Sources */,
+				5C58E9EB1AFC09870000A106 /* UnwindSegue.swift in Sources */,
+				5C58E9DD1AFC09870000A106 /* LoadingView.swift in Sources */,
+				5C58E9E61AFC09870000A106 /* SpringTextField.swift in Sources */,
+				5C58E9E11AFC09870000A106 /* Spring.swift in Sources */,
 				5C58E9911AFC02E60000A106 /* ViewController.swift in Sources */,
+				5C58E9E01AFC09870000A106 /* SoundPlayer.swift in Sources */,
+				5C58E9D91AFC09870000A106 /* DesignableView.swift in Sources */,
+				5C58E9D61AFC09870000A106 /* DesignableTabBarController.swift in Sources */,
+				5C58E9D31AFC09870000A106 /* DesignableButton.swift in Sources */,
 				5C58E98C1AFC02E60000A106 /* AppDelegate.swift in Sources */,
+				5C58E9EA1AFC09870000A106 /* TransitionZoom.swift in Sources */,
+				5C58E9D71AFC09870000A106 /* DesignableTextField.swift in Sources */,
+				5C58E9E91AFC09870000A106 /* TransitionManager.swift in Sources */,
+				5C58E9E51AFC09870000A106 /* SpringLabel.swift in Sources */,
+				5C58E9CF1AFC09870000A106 /* AsyncButton.swift in Sources */,
+				5CBD06CB1B02EF4200246456 /* ImageTableViewCell.swift in Sources */,
+				5C58E9D01AFC09870000A106 /* AsyncImageView.swift in Sources */,
+				5C58EA211AFFA2A90000A106 /* HomeTableViewController.swift in Sources */,
+				5C58E9D81AFC09870000A106 /* DesignableTextView.swift in Sources */,
+				5C5B31EE1B010FC800540C41 /* ChallengeIdTableViewController.swift in Sources */,
+				5C58E9E81AFC09870000A106 /* SpringView.swift in Sources */,
+				5C58E9E71AFC09870000A106 /* SpringTextView.swift in Sources */,
+				5C58E9DC1AFC09870000A106 /* KeyboardLayoutConstraint.swift in Sources */,
+				5C58E9E31AFC09870000A106 /* SpringButton.swift in Sources */,
+				5C58E9E21AFC09870000A106 /* SpringAnimation.swift in Sources */,
+				5C58E9D41AFC09870000A106 /* DesignableImageView.swift in Sources */,
+				5C58EA251AFFD9050000A106 /* ChallengeTableViewCell.swift in Sources */,
 				5C58E98F1AFC02E60000A106 /* captureClou.xcdatamodeld in Sources */,
+				5CBD06C91B02BADF00246456 /* SwiftyJSON.swift in Sources */,
+				5C58EA231AFFD6C30000A106 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -363,7 +624,6 @@
 		5C58E9AC1AFC02E60000A106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -375,14 +635,12 @@
 				INFOPLIST_FILE = captureClouTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/captureClou.app/captureClou";
 			};
 			name = Debug;
 		};
 		5C58E9AD1AFC02E60000A106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -390,7 +648,6 @@
 				INFOPLIST_FILE = captureClouTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/captureClou.app/captureClou";
 			};
 			name = Release;
 		};
@@ -413,6 +670,7 @@
 				5C58E9AA1AFC02E60000A106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C58E9AB1AFC02E60000A106 /* Build configuration list for PBXNativeTarget "captureClouTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +679,7 @@
 				5C58E9AD1AFC02E60000A106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
